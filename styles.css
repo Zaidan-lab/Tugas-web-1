@@ -1,0 +1,57 @@
+body {
+    background-color: bisque;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.comments{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+}
+
+.comments form fieldset {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.form-control {
+    width: 350px;
+    height: 35px;
+    margin-bottom: 10px;
+ }
+
+ .form-control:focus {
+    background-color:#eeeeee ;
+    outline-color: #0078aa;
+ }
+
+
+ .btn{
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+ }
+
+ .btn-primary{
+    background-color: #0078aa;
+    color: white;
+ }
+
+ .btn-primary:hover {
+    background-color: #0078aa;
+    
+ }
+
+ .float-end {
+    float: right;
+ }

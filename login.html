@@ -3,33 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Halaman Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <nav>
-        <a href="index.html">Home</a>|
-        <a href="about.html">About</a>|
-        <a href="semantik.html">Posts</a>|
-        <a href="login.html">Login</a>|
-    </nav>
+<body bgcolor="#eee">
+    <section class="comments">
+<main>
+<h2>Selamat Datang di peTIK Blog</h2>
 
-    <h1>Halaman Login</h1>
     <form action="">
-        <fieldset>
-            <legend>Login</legend>
-            <label for="name">Nama</label>
+            <label for="username">Username</label>
             <br>
-            <input type="text" name="name" id="name" placeholder="Masukkaan nama anda" required>
+            <input type="text" id="usernama" class="form-control" placeholder="Masukkan username" required>
             <br>
+            <label for="pasword">Password</label>
             <br>
-            <label for="password">Password</label>
-            <br>
-            <input type="password" name="password" id="password" placeholder="Masukkaan password anda" required>
+            <input type="password" id="password" class="form-control" placeholder="Masukkan password" required>
             <br>
             <br>
-            <button>Submit</button>
-        </fieldset>
+            <button class="btn btn-primary float-end">Login</button>
     </form>
-    
+</main>
+</section>    
 </body>
 </html>
